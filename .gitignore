@@ -1,0 +1,23 @@
+# Зависимости и сборки
+frontend/node_modules/
+backend/vendor/
+
+# Окружение
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Кэши Laravel
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+backend/bootstrap/cache/*.php
+
+# Загруженные через админ-панель изображения
+backend/public/uploads/products/*
+
+# Прочее
+.DS_Store
+Thumbs.db
+*.log
